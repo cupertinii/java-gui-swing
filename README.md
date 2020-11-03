@@ -5,7 +5,7 @@ In this repository, I am going to show various examples for developing Graphical
 ## To Do List
 
 - [x] Buttons
-- [ ] Text entry and label
+- [x] Text entry and label
 - [ ] Text entry, Button and label
 - [ ] Text Password Field
 - [ ] Alerts
