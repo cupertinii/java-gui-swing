@@ -6,7 +6,7 @@ In this repository, I am going to show various examples for developing Graphical
 
 - [x] Buttons
 - [x] Text entry and label
-- [ ] Text entry, Button and label
+- [x] Text entry, Button and label
 - [ ] Text Password Field
 - [ ] Alerts
 - [ ] Radio button
