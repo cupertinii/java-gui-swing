@@ -8,7 +8,7 @@ In this repository, I am going to show various examples for developing Graphical
 - [x] Text entry and label
 - [x] Text entry, Button and label
 - [x] Text Password Field
-- [ ] Alerts
+- [x] Alerts
 - [ ] Radio button
 - [ ] Checkbox
 - [ ] Comboxbox
