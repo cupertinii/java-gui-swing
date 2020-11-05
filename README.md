@@ -9,7 +9,7 @@ In this repository, I am going to show various examples for developing Graphical
 - [x] Text entry, Button and label
 - [x] Text Password Field
 - [x] Alerts
-- [ ] Radio button
+- [x] Radio button
 - [ ] Checkbox
 - [ ] Comboxbox
 - [ ] List
