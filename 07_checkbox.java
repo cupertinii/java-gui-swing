@@ -29,6 +29,8 @@ public class GUIApp {
     option_5.setBounds(100, 170, 200, 30);
 
     // Event handlers
+
+    // Method 1: Regular Action Listener
     option_1.addActionListener(new ActionListener() {
       boolean selected_op = false;
       public void actionPerformed(ActionEvent e) {
@@ -37,10 +39,27 @@ public class GUIApp {
       }
     });
 
+    /*
     option_2.addActionListener(new ActionListener() {
       boolean selected_op = false;
       public void actionPerformed(ActionEvent e) {
         selected_op = !selected_op;
+        label_2.setText("Tuesday : " + selected_op );
+      }
+    });
+    */
+
+    // Method 2: Listen on Items instead of Action
+    option_2.addItemListener(new ItemListener() {
+      // check for Item State Change event
+      public void itemStateChanged(ItemEvent e) {
+        boolean selected_op;
+        if(e.getStateChange() == 1) {
+          selected_op = true;
+        }
+        else {
+          selected_op = false;
+        }
         label_2.setText("Tuesday : " + selected_op );
       }
     });
