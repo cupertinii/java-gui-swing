@@ -10,7 +10,7 @@ In this repository, I am going to show various examples for developing Graphical
 - [x] Text Password Field
 - [x] Alerts
 - [x] Radio button
-- [ ] Checkbox
+- [x] Checkbox
 - [ ] Comboxbox
 - [ ] List
 - [ ] Slider
