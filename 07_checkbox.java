@@ -28,6 +28,45 @@ public class GUIApp {
     option_5 = new JCheckBox("Friday");
     option_5.setBounds(100, 170, 200, 30);
 
+    // Event handlers
+    option_1.addActionListener(new ActionListener() {
+      boolean selected_op = false;
+      public void actionPerformed(ActionEvent e) {
+        selected_op = !selected_op;
+        label_2.setText("Monday : " + selected_op );
+      }
+    });
+
+    option_2.addActionListener(new ActionListener() {
+      boolean selected_op = false;
+      public void actionPerformed(ActionEvent e) {
+        selected_op = !selected_op;
+        label_2.setText("Tuesday : " + selected_op );
+      }
+    });
+
+    option_3.addActionListener(new ActionListener() {
+      boolean selected_op3 = false;
+      public void actionPerformed(ActionEvent e) {
+        selected_op3 = !selected_op3;
+        label_2.setText("Wednesday : " + selected_op3 );
+      }
+    });
+    option_4.addActionListener(new ActionListener() {
+      boolean selected_op4 = false;
+      public void actionPerformed(ActionEvent e) {
+        selected_op4 = !selected_op4;
+        label_2.setText("Thursday : " + selected_op4 );
+      }
+    });
+    option_5.addActionListener(new ActionListener() {
+      boolean selected_op5 = false;
+      public void actionPerformed(ActionEvent e) {
+        selected_op5 = !selected_op5;
+        label_2.setText("Friday : " + selected_op5 );
+      }
+    });
+
     // Add all the components to application frame
     frame.add(label);
     frame.add(option_1);
