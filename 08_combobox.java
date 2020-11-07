@@ -22,6 +22,15 @@ public class GUIApp {
     cmbDays.setSelectedItem( "Friday" );
     System.out.println("Currently selected item is " + cmbDays.getSelectedIndex());
 
+    // Adding action listener
+    cmbDays.addActionListener( new ActionListener() {
+      public void actionPerformed(ActionEvent e) {
+
+        String message = "Selected : " + cmbDays.getItemAt( cmbDays.getSelectedIndex() );
+        System.out.println(message);
+      }
+    });
+
     // Add all the components to application frame
     frame.add(label);
     frame.add(cmbDays);
