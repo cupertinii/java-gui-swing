@@ -12,11 +12,12 @@ In this repository, I am going to show various examples for developing Graphical
 - [x] Radio button
 - [x] Checkbox
 - [x] Comboxbox
-- [ ] List
-- [ ] Slider
+- [x] Slider - Horizontal and Vertical
 - [ ] Progress bar
 - [ ] Menu
 - [ ] Popup Menu
+
+- [ ] List
 
 ## References
 - https://docs.oracle.com/javase/7/docs/api/index.html
