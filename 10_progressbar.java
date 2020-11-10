@@ -11,13 +11,14 @@ public class GUIApp {
     // I had to comment following line out to get the slider
     // frame.setLayout(null);
 
-    progressBarExample(frame);
+    progressBarHorizontalExample(frame);
+    progressBarVerticalExample(frame);
 
     frame.setLayout(null);
     frame.setVisible(true);
   }
 
-  public static void progressBarExample(JFrame frame) {
+  public static void progressBarHorizontalExample(JFrame frame) {
     // JSlider mySlider = new JSlider(JSlider.HORIZONTAL);
     int min = 0;
     int max = 100;
@@ -26,6 +27,21 @@ public class GUIApp {
 
     myProgressBar.setLocation(20, 20);
     myProgressBar.setSize(200, 60);
+
+    myProgressBar.setValue(44);
+
+    frame.add(myProgressBar);
+  }
+
+  public static void progressBarVerticalExample(JFrame frame) {
+    // JSlider mySlider = new JSlider(JSlider.HORIZONTAL);
+    int min = 0;
+    int max = 100;
+    int current_value = 20;
+    JProgressBar myProgressBar = new JProgressBar(SwingConstants.VERTICAL, 0, 100);
+
+    myProgressBar.setLocation(20, 220);
+    myProgressBar.setSize(60, 200);
 
     myProgressBar.setValue(44);
 
