@@ -15,7 +15,7 @@ In this repository, I am going to show various examples for developing Graphical
 - [x] Slider - Horizontal and Vertical
 - [x] Slider with event handlers
 - [x] Progress bar
-- [ ] Progress bar (auto incrementing)
+- [x] Progress bar (auto incrementing)
 - [ ] Menu
 - [ ] Popup Menu
 
