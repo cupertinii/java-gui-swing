@@ -14,7 +14,8 @@ In this repository, I am going to show various examples for developing Graphical
 - [x] Comboxbox
 - [x] Slider - Horizontal and Vertical
 - [x] Slider with event handlers
-- [ ] Progress bar
+- [x] Progress bar
+- [ ] Progress bar (auto incrementing)
 - [ ] Menu
 - [ ] Popup Menu
 
