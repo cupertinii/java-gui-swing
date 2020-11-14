@@ -17,7 +17,7 @@ In this repository, I am going to show various examples for developing Graphical
 - [x] Progress bar
 - [x] Progress bar (auto incrementing)
 - [x] Progress bar (auto incrementing) and value
-- [ ] Menu
+- [x] Menu
 - [ ] Popup Menu
 
 - [ ] List
