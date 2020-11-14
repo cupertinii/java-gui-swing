@@ -33,25 +33,29 @@ public class GUIApp {
 
     item_new.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        System.out.println("Clicked : New");
+        JMenuItem source = (JMenuItem) e.getSource();
+        System.out.println("Clicked : " + source.getText() );
       }
     });
 
     item_save.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        System.out.println("Clicked : Save");
+        JMenuItem source = (JMenuItem) e.getSource();
+        System.out.println("Clicked : " + source.getText() );
       }
     });
 
     item_saveas.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        System.out.println("Clicked : Saveas");
+        JMenuItem source = (JMenuItem) e.getSource();
+        System.out.println("Clicked : " + source.getText() );
       }
     });
 
     item_exit.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        System.out.println("Clicked : Exit");
+        JMenuItem source = (JMenuItem) e.getSource();
+        System.out.println("Clicked : " + source.getText() );
       }
     });
 
