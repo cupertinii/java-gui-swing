@@ -18,7 +18,11 @@ public class GUIApp {
     btn.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         System.out.println("Clicked");
-        btn.setText("Disabled");
+        if( btn.isSelected() == true) {
+          btn.setText("Disabled");
+        } else {
+          btn.setText("Enabled");
+        }
       }
     });
 
